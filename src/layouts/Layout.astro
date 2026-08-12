@@ -1,0 +1,12 @@
+---
+import '../styles/global.css';
+const { title, description } = Astro.props;
+---
+<!doctype html><html lang="en"><head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} /><meta name="codex-preview" content="development" />
+  <meta name="description" content={description} /><meta property="og:title" content={title} />
+  <meta property="og:description" content={description} /><meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mattrabah.com" /><link rel="canonical" href="https://mattrabah.com" />
+  <link rel="icon" href="/favicon.svg" /><title>{title}</title>
+</head><body><slot /></body></html>
