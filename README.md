@@ -1,4 +1,4 @@
-# Matthew Rabah CX Portfolio
+# Matt Rabah CX Portfolio
 
 Customer experience management portfolio for [mattrabah.com](https://mattrabah.com), built with Astro 7.2.
 
